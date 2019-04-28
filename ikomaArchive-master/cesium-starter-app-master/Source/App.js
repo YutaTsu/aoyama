@@ -23,4 +23,5 @@ var polygon = viewer.entities.add({
         outlinColor : Cesium.ColorBLACK
         }
 });
-viewer.dataSources.add(Cesium.KmlDataSource.load("myplaces.kml"));
+viewer.dataSources.add(Cesium.KmlDataSource.load("福井.kmz"));
+
