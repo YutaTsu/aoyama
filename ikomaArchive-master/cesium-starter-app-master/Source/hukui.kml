@@ -4,7 +4,6 @@
 	<name>hukui</name>
 	<Document>
 		<name>一次避難場所（風水害）.shp</name>
-		<open>1</open>
 		<Schema name="一次避難場所（風水害）" id="S_一次避難場所_風水害__ISIDIISSSSSSSS">
 			<SimpleField type="int" name="SAUID"><displayName>&lt;b&gt;SAUID&lt;/b&gt;</displayName>
 </SimpleField>
@@ -259,9 +258,10 @@
 			</Placemark>
 			<Placemark>
 				<name>府中二丁目</name>
-				<styleUrl>#pointStyleMap</styleUrl>
+				<description>テスト</description>
+				<styleUrl>#msn_red-circle</styleUrl>
 				<ExtendedData>
-					<SchemaData schemaUrl="#S_一次避難場所_風水害__ISIDIISSSSSSSS">
+					<SchemaData schemaUrl="#S_一次避難場所_風水害__ISIDIISSSSSSSS0">
 						<SimpleData name="SAUID">1692</SimpleData>
 						<SimpleData name="SAUPDATE">2018-03-06 14:29:04</SimpleData>
 						<SimpleData name="SAANGLE">0</SimpleData>
@@ -304,6 +304,7 @@
 						<SimpleData name="SAFIELD008"></SimpleData>
 					</SchemaData>
 				</ExtendedData>
+				<gx:balloonVisibility>1</gx:balloonVisibility>
 				<Point>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>136.168234035156,35.90777921152057,284</coordinates>
