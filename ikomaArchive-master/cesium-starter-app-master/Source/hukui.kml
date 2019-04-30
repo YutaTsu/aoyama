@@ -4,6 +4,7 @@
 	<name>hukui</name>
 	<Document>
 		<name>一次避難場所（風水害）.shp</name>
+		<open>1</open>
 		<Schema name="一次避難場所（風水害）" id="S_一次避難場所_風水害__ISIDIISSSSSSSS">
 			<SimpleField type="int" name="SAUID"><displayName>&lt;b&gt;SAUID&lt;/b&gt;</displayName>
 </SimpleField>
@@ -64,45 +65,10 @@
 			<SimpleField type="string" name="SAFIELD008"><displayName>&lt;b&gt;SAFIELD008&lt;/b&gt;</displayName>
 </SimpleField>
 		</Schema>
-		<Style id="normPointStyle">
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-				</Icon>
-				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-			</IconStyle>
-			<LabelStyle>
-				<color>cc0080ff</color>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<table border="0">
-  <tr><td><b>SAUID</b></td><td>$[一次避難場所（風水害）/SAUID]</td></tr>
-  <tr><td><b>SAUPDATE</b></td><td>$[一次避難場所（風水害）/SAUPDATE]</td></tr>
-  <tr><td><b>SAANGLE</b></td><td>$[一次避難場所（風水害）/SAANGLE]</td></tr>
-  <tr><td><b>SASIZE</b></td><td>$[一次避難場所（風水害）/SASIZE]</td></tr>
-  <tr><td><b>SASYMBOLNO</b></td><td>$[一次避難場所（風水害）/SASYMBOLNO]</td></tr>
-  <tr><td><b>SAFIELD000</b></td><td>$[一次避難場所（風水害）/SAFIELD000]</td></tr>
-  <tr><td><b>SAFIELD001</b></td><td>$[一次避難場所（風水害）/SAFIELD001]</td></tr>
-  <tr><td><b>SAFIELD002</b></td><td>$[一次避難場所（風水害）/SAFIELD002]</td></tr>
-  <tr><td><b>SAFIELD003</b></td><td>$[一次避難場所（風水害）/SAFIELD003]</td></tr>
-  <tr><td><b>SAFIELD004</b></td><td>$[一次避難場所（風水害）/SAFIELD004]</td></tr>
-  <tr><td><b>SAFIELD005</b></td><td>$[一次避難場所（風水害）/SAFIELD005]</td></tr>
-  <tr><td><b>SAFIELD006</b></td><td>$[一次避難場所（風水害）/SAFIELD006]</td></tr>
-  <tr><td><b>SAFIELD007</b></td><td>$[一次避難場所（風水害）/SAFIELD007]</td></tr>
-  <tr><td><b>SAFIELD008</b></td><td>$[一次避難場所（風水害）/SAFIELD008]</td></tr>
-</table>]]></text>
-			</BalloonStyle>
-			<ListStyle>
-				<ItemIcon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-				</ItemIcon>
-			</ListStyle>
-		</Style>
 		<StyleMap id="pointStyleMap">
 			<Pair>
 				<key>normal</key>
-				<styleUrl>#normPointStyle0</styleUrl>
+				<styleUrl>#normPointStyle</styleUrl>
 			</Pair>
 			<Pair>
 				<key>highlight</key>
@@ -144,52 +110,7 @@
 				</ItemIcon>
 			</ListStyle>
 		</Style>
-		<StyleMap id="pointStyleMap0">
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#normPointStyle</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#hlightPointStyle0</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id="hlightPointStyle0">
-			<IconStyle>
-				<scale>1.3</scale>
-				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-				</Icon>
-				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-			</IconStyle>
-			<LabelStyle>
-				<color>cc0080ff</color>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<table border="0">
-  <tr><td><b>SAUID</b></td><td>$[一次避難場所（風水害）/SAUID]</td></tr>
-  <tr><td><b>SAUPDATE</b></td><td>$[一次避難場所（風水害）/SAUPDATE]</td></tr>
-  <tr><td><b>SAANGLE</b></td><td>$[一次避難場所（風水害）/SAANGLE]</td></tr>
-  <tr><td><b>SASIZE</b></td><td>$[一次避難場所（風水害）/SASIZE]</td></tr>
-  <tr><td><b>SASYMBOLNO</b></td><td>$[一次避難場所（風水害）/SASYMBOLNO]</td></tr>
-  <tr><td><b>SAFIELD000</b></td><td>$[一次避難場所（風水害）/SAFIELD000]</td></tr>
-  <tr><td><b>SAFIELD001</b></td><td>$[一次避難場所（風水害）/SAFIELD001]</td></tr>
-  <tr><td><b>SAFIELD002</b></td><td>$[一次避難場所（風水害）/SAFIELD002]</td></tr>
-  <tr><td><b>SAFIELD003</b></td><td>$[一次避難場所（風水害）/SAFIELD003]</td></tr>
-  <tr><td><b>SAFIELD004</b></td><td>$[一次避難場所（風水害）/SAFIELD004]</td></tr>
-  <tr><td><b>SAFIELD005</b></td><td>$[一次避難場所（風水害）/SAFIELD005]</td></tr>
-  <tr><td><b>SAFIELD006</b></td><td>$[一次避難場所（風水害）/SAFIELD006]</td></tr>
-  <tr><td><b>SAFIELD007</b></td><td>$[一次避難場所（風水害）/SAFIELD007]</td></tr>
-  <tr><td><b>SAFIELD008</b></td><td>$[一次避難場所（風水害）/SAFIELD008]</td></tr>
-</table>]]></text>
-			</BalloonStyle>
-			<ListStyle>
-				<ItemIcon>
-					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-				</ItemIcon>
-			</ListStyle>
-		</Style>
-		<Style id="normPointStyle0">
+		<Style id="normPointStyle">
 			<IconStyle>
 				<scale>1.1</scale>
 				<Icon>
@@ -224,11 +145,59 @@
 				</ItemIcon>
 			</ListStyle>
 		</Style>
+		<Style id="sn_red-circle">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>cc0080ff</color>
+			</LabelStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<StyleMap id="msn_red-circle">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_red-circle</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_red-circle</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_red-circle">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>cc0080ff</color>
+			</LabelStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
 		<Folder id="layer 0">
 			<name>一次避難場所（風水害）</name>
 			<Placemark>
 				<name>府中一丁目</name>
-				<description>府中一丁目テスト</description>
+				<description><![CDATA[<a href="http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html">http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html</a>府中一丁目テスト]]></description>
 				<LookAt>
 					<longitude>136.1766602440544</longitude>
 					<latitude>35.88760750347818</latitude>
@@ -238,7 +207,7 @@
 					<range>30468.04702444068</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#pointStyleMap0</styleUrl>
+				<styleUrl>#msn_red-circle</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#S_一次避難場所_風水害__ISIDIISSSSSSSS0">
 						<SimpleData name="SAUID">1690</SimpleData>
