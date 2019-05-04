@@ -194,13 +194,23 @@
 		</Style>
 		<Folder id="layer 0">
 			<name>一次避難場所（風水害）</name>
+			 <Style id="balloon-style">
+    <BalloonStyle>
+      <text>
+        <![CDATA[
+          $[description]
+          $[SAUID]
+          $[SAUPDATE]
+        ]]>
+      </text>
+    </BalloonStyle>
+  </Style>
+  <!-- Shared style sample
+        all Placemarks use the same balloon template
+  -->
 			<Placemark>
 				<name>府中一丁目</name>
-			<Style id="style">
-			  <BalloonStyle>
 				<description><![CDATA[<a href="http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html">http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html</a>府中一丁目テスト]]></description>
-			  </BalloonStyle>
-			</Style>
 				<LookAt>
 					<longitude>136.1766602440544</longitude>
 					<latitude>35.88760750347818</latitude>
