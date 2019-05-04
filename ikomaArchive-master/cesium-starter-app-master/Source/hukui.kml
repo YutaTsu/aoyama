@@ -85,24 +85,6 @@
 			<LabelStyle>
 				<color>cc0080ff</color>
 			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<table border="0">
-  <tr><td><b>SAUID</b></td><td>$[一次避難場所（風水害）/SAUID]</td></tr>
-  <tr><td><b>SAUPDATE</b></td><td>$[一次避難場所（風水害）/SAUPDATE]</td></tr>
-  <tr><td><b>SAANGLE</b></td><td>$[一次避難場所（風水害）/SAANGLE]</td></tr>
-  <tr><td><b>SASIZE</b></td><td>$[一次避難場所（風水害）/SASIZE]</td></tr>
-  <tr><td><b>SASYMBOLNO</b></td><td>$[一次避難場所（風水害）/SASYMBOLNO]</td></tr>
-  <tr><td><b>SAFIELD000</b></td><td>$[一次避難場所（風水害）/SAFIELD000]</td></tr>
-  <tr><td><b>SAFIELD001</b></td><td>$[一次避難場所（風水害）/SAFIELD001]</td></tr>
-  <tr><td><b>SAFIELD002</b></td><td>$[一次避難場所（風水害）/SAFIELD002]</td></tr>
-  <tr><td><b>SAFIELD003</b></td><td>$[一次避難場所（風水害）/SAFIELD003]</td></tr>
-  <tr><td><b>SAFIELD004</b></td><td>$[一次避難場所（風水害）/SAFIELD004]</td></tr>
-  <tr><td><b>SAFIELD005</b></td><td>$[一次避難場所（風水害）/SAFIELD005]</td></tr>
-  <tr><td><b>SAFIELD006</b></td><td>$[一次避難場所（風水害）/SAFIELD006]</td></tr>
-  <tr><td><b>SAFIELD007</b></td><td>$[一次避難場所（風水害）/SAFIELD007]</td></tr>
-  <tr><td><b>SAFIELD008</b></td><td>$[一次避難場所（風水害）/SAFIELD008]</td></tr>
-</table>]]></text>
-			</BalloonStyle>
 			<ListStyle>
 				<ItemIcon>
 					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -120,24 +102,6 @@
 			<LabelStyle>
 				<color>cc0080ff</color>
 			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<table border="0">
-  <tr><td><b>SAUID</b></td><td>$[一次避難場所（風水害）/SAUID]</td></tr>
-  <tr><td><b>SAUPDATE</b></td><td>$[一次避難場所（風水害）/SAUPDATE]</td></tr>
-  <tr><td><b>SAANGLE</b></td><td>$[一次避難場所（風水害）/SAANGLE]</td></tr>
-  <tr><td><b>SASIZE</b></td><td>$[一次避難場所（風水害）/SASIZE]</td></tr>
-  <tr><td><b>SASYMBOLNO</b></td><td>$[一次避難場所（風水害）/SASYMBOLNO]</td></tr>
-  <tr><td><b>SAFIELD000</b></td><td>$[一次避難場所（風水害）/SAFIELD000]</td></tr>
-  <tr><td><b>SAFIELD001</b></td><td>$[一次避難場所（風水害）/SAFIELD001]</td></tr>
-  <tr><td><b>SAFIELD002</b></td><td>$[一次避難場所（風水害）/SAFIELD002]</td></tr>
-  <tr><td><b>SAFIELD003</b></td><td>$[一次避難場所（風水害）/SAFIELD003]</td></tr>
-  <tr><td><b>SAFIELD004</b></td><td>$[一次避難場所（風水害）/SAFIELD004]</td></tr>
-  <tr><td><b>SAFIELD005</b></td><td>$[一次避難場所（風水害）/SAFIELD005]</td></tr>
-  <tr><td><b>SAFIELD006</b></td><td>$[一次避難場所（風水害）/SAFIELD006]</td></tr>
-  <tr><td><b>SAFIELD007</b></td><td>$[一次避難場所（風水害）/SAFIELD007]</td></tr>
-  <tr><td><b>SAFIELD008</b></td><td>$[一次避難場所（風水害）/SAFIELD008]</td></tr>
-</table>]]></text>
-			</BalloonStyle>
 			<ListStyle>
 				<ItemIcon>
 					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
@@ -194,20 +158,14 @@
 		</Style>
 		<Folder id="layer 0">
 			<name>一次避難場所（風水害）</name>
-			<Style id="balloon-style">
-              <BalloonStyle>
-               <text>
-                  <![CDATA[
-                    $[description]
-                    $[SAUID]
-                    $[SAUPDATE]
-                  ]]>
-               </text>
-              </BalloonStyle>
-             </Style>
 			<Placemark>
 				<name>府中一丁目</name>
-				<description><![CDATA[<a href="http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html">http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html</a>府中一丁目テスト]]></description>
+				<description><![CDATA[<a href="http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html">http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html</a>府中一丁目テスト]]>
+				避難種類：風水害時
+				施設名称：越前市生涯学習センター
+				施設環境：屋内
+				住所：府中一丁目13-7
+				</description>
 				<LookAt>
 					<longitude>136.1766602440544</longitude>
 					<latitude>35.88760750347818</latitude>
@@ -218,24 +176,6 @@
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_red-circle</styleUrl>
-				<ExtendedData>
-					<SchemaData schemaUrl="#S_一次避難場所_風水害__ISIDIISSSSSSSS0">
-						<SimpleData name="SAUID">1690</SimpleData>
-						<SimpleData name="SAUPDATE">2018-03-06 14:29:04</SimpleData>
-						<SimpleData name="SAANGLE">0</SimpleData>
-						<SimpleData name="SASIZE">6</SimpleData>
-						<SimpleData name="SASYMBOLNO">386</SimpleData>
-						<SimpleData name="SAFIELD000">1</SimpleData>
-						<SimpleData name="SAFIELD001"></SimpleData>
-						<SimpleData name="SAFIELD002">府中一丁目</SimpleData>
-						<SimpleData name="SAFIELD003">風水害時</SimpleData>
-						<SimpleData name="SAFIELD004">越前市生涯学習センター</SimpleData>
-						<SimpleData name="SAFIELD005">屋内</SimpleData>
-						<SimpleData name="SAFIELD006">府中一丁目１3-7</SimpleData>
-						<SimpleData name="SAFIELD007">22-3005</SimpleData>
-						<SimpleData name="SAFIELD008"></SimpleData>
-					</SchemaData>
-				</ExtendedData>
 				<Point>
 					<altitudeMode>relativeToGround</altitudeMode>
 					<coordinates>136.1690998293175,35.90395831016302,284</coordinates>
