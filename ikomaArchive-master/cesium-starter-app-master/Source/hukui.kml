@@ -437,3 +437,7 @@
 	</Document>
 </Folder>
 </kml>
+<script>
+var viewer = new Cesium.Viewer('cesiumContainer');
+ viewer.zoomTo(viewer.entities);
+</script>
