@@ -4,6 +4,20 @@
 	<name>hukui</name>
 	<Document>
 		<name>一次避難場所（風水害）.shp</name>
+		<Style id="balloon-style">
+              <BalloonStyle>
+               <text>
+                  <![CDATA[
+                    $[description]
+                    $[SAUID]
+                    $[SAUPDATE]
+                  ]]>
+               </text>
+              </BalloonStyle>
+             </Style>
+             <!-- Shared style sample
+                   all Placemarks use the same balloon template
+             -->
 		<Schema name="一次避難場所（風水害）" id="S_一次避難場所_風水害__ISIDIISSSSSSSS">
 			<SimpleField type="int" name="SAUID"><displayName>&lt;b&gt;SAUID&lt;/b&gt;</displayName>
 </SimpleField>
@@ -194,20 +208,6 @@
 		</Style>
 		<Folder id="layer 0">
 			<name>一次避難場所（風水害）</name>
-			 <Style id="balloon-style">
-              <BalloonStyle>
-               <text>
-                  <![CDATA[
-                    $[description]
-                    $[SAUID]
-                    $[SAUPDATE]
-                  ]]>
-               </text>
-              </BalloonStyle>
-             </Style>
-             <!-- Shared style sample
-                   all Placemarks use the same balloon template
-             -->
 			<Placemark>
 				<name>府中一丁目</name>
 				<description><![CDATA[<a href="http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html">http://www.city.echizen.lg.jp/office/010/021/open-data-echizen.html</a>府中一丁目テスト]]></description>
