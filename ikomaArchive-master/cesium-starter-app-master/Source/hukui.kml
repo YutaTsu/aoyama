@@ -231,32 +231,6 @@
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>府中一丁目</name>
-				<styleUrl>#pointStyleMap</styleUrl>
-				<ExtendedData>
-					<SchemaData schemaUrl="#S_一次避難場所_風水害__ISIDIISSSSSSSS">
-						<SimpleData name="SAUID">1691</SimpleData>
-						<SimpleData name="SAUPDATE">2018-03-06 14:29:04</SimpleData>
-						<SimpleData name="SAANGLE">0</SimpleData>
-						<SimpleData name="SASIZE">6</SimpleData>
-						<SimpleData name="SASYMBOLNO">386</SimpleData>
-						<SimpleData name="SAFIELD000">2</SimpleData>
-						<SimpleData name="SAFIELD001"></SimpleData>
-						<SimpleData name="SAFIELD002">府中一丁目</SimpleData>
-						<SimpleData name="SAFIELD003">全災害時</SimpleData>
-						<SimpleData name="SAFIELD004">越前市生涯学習センター</SimpleData>
-						<SimpleData name="SAFIELD005">屋内</SimpleData>
-						<SimpleData name="SAFIELD006">府中一丁目１3-7</SimpleData>
-						<SimpleData name="SAFIELD007">22-3005</SimpleData>
-						<SimpleData name="SAFIELD008"></SimpleData>
-					</SchemaData>
-				</ExtendedData>
-				<Point>
-					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>136.1690979586134,35.90396426162223,284</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
 				<name>府中二丁目</name>
 				<description>テスト</description>
 				<styleUrl>#msn_red-circle</styleUrl>
